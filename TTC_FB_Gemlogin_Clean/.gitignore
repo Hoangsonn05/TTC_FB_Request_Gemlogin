@@ -1,0 +1,14 @@
+# local runtime files
+config.json
+interaction_history.json
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+*.sqlite
+*.db
+
+# local IDE
+.vscode/
+.idea/

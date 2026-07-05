@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-05T06:16:25Z",
+  "records": [
+    {
+      "profile_id": "6",
+      "object_id": "2538049269953151",
+      "normalized_object_id": "2538049269953151",
+      "action_group": "reaction",
+      "reaction_type": "LIKE",
+      "first_seen_at": "2026-07-05T06:14:24Z",
+      "last_seen_at": "2026-07-05T06:14:24Z",
+      "count": 1
+    },
+    {
+      "profile_id": "6",
+      "object_id": "37274735782140555",
+      "normalized_object_id": "37274735782140555",
+      "action_group": "reaction",
+      "reaction_type": "LIKE",
+      "first_seen_at": "2026-07-05T06:15:22Z",
+      "last_seen_at": "2026-07-05T06:15:22Z",
+      "count": 1
+    },
+    {
+      "profile_id": "6",
+      "object_id": "959794433757795",
+      "normalized_object_id": "959794433757795",
+      "action_group": "reaction",
+      "reaction_type": "LIKE",
+      "first_seen_at": "2026-07-05T06:16:25Z",
+      "last_seen_at": "2026-07-05T06:16:25Z",
+      "count": 1
+    }
+  ]
+}

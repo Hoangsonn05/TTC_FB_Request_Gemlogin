@@ -1,0 +1,65 @@
+{
+  "global": {
+    "worker_count": 1,
+    "gemlogin_url": "http://localhost:1010"
+  },
+  "workers": [
+    {
+      "worker_id": "1",
+      "enabled": true,
+      "name": "Worker 1",
+      "mode": "gemlogin",
+      "use_gemlogin": true,
+      "profile_id": "",
+      "gemlogin_profile_id": "",
+      "gemlogin_url": "http://localhost:1010",
+      "headless": true,
+      "auto_close_profile": true,
+      "use_cookie": false,
+      "ttc_token": "",
+      "ttc_uid": "",
+      "enabled_job_types": [
+        "ttc_like_post_vip_cheo",
+        "ttc_like_post_vip_re",
+        "ttc_reaction_vip_cheo",
+        "ttc_reaction_vip_re",
+        "ttc_comment",
+        "ttc_follow",
+        "ttc_like_page"
+      ],
+      "reaction_filter": "all",
+      "max_jobs": 0,
+      "facebook_action_executor": "facebook_graphql_context",
+      "resource_blocking_enabled": true,
+      "block_images": true,
+      "block_media": true,
+      "block_fonts": true,
+      "block_stylesheets": false,
+      "reaction_min_delay_after_job": 30,
+      "reaction_max_delay_after_job": 45,
+      "reaction_pre_claim_min_delay": 3,
+      "reaction_pre_claim_max_delay": 3,
+      "comment_min_delay_after_job": 60,
+      "comment_max_delay_after_job": 90,
+      "follow_min_delay_after_job": 30,
+      "follow_max_delay_after_job": 45,
+      "page_like_min_delay_after_job": 30,
+      "page_like_max_delay_after_job": 45,
+      "wait_no_job_delay": 30,
+      "api_error_retry_delay": 20,
+      "timeout": 60,
+      "interaction_block_cooldown_minutes": 60,
+      "duplicate_check_enabled": true,
+      "duplicate_check_mode": "same_action",
+      "duplicate_history_file": "interaction_history.json",
+      "duplicate_history_max_records": 3000,
+      "action_executor": {
+        "name": "facebook_graphql_context",
+        "verify_after_action": true,
+        "fail_closed": true,
+        "timeout_ms": 15000,
+        "max_action_retry": 0
+      }
+    }
+  ]
+}
